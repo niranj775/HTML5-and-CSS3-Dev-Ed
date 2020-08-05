@@ -12,13 +12,20 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
   </head>
   <body>
-    <h1>Forms</h1>
-    <form>
-      <label for="user">UserName:</label>
-      <input type="text" id="user" />
-      <label for="email">E-Mail:</label>
-      <input type="email" id="email" />
-    </form>
+    <h1>Lists</h1>
+    <ol>
+      <li>Chapter 1</li>
+      <ol>
+        <li>The Home Coming</li>
+        <li>Far From Home</li>
+      </ol>
+      <li>Chapter 2</li>
+      <ol>
+        <li>The Home Coming</li>
+        <li>Far From Home</li>
+      </ol>
+      <li>Chapter 3</li>
+    </ol>
   </body>
 </html>
 
@@ -52,3 +59,46 @@ https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q -->
     >
       <img src="/img/iconmonstr-youtube-6.svg" alt="No Img"
     /></a> -->
+
+<!-- Forms
+  <h1>Forms</h1>
+    <form>
+      <label for="user">UserName:</label>
+      <input
+        autofocus
+        maxlength="30"
+        minlength="2"
+        name="user"
+        ype="text"
+        id="user"
+        placeholder="Enter your username..."
+        required
+      />
+      <label for="email">E-Mail:</label>
+      <input
+        autocomplete="off"
+        name="email"
+        type="email"
+        id="email"
+        placeholder="Enter your e-mail id..."
+        required
+      />
+      <select name="products" id="product" required>
+        <option value=""></option>
+        <option value="macbook 2018">Macbook</option>
+        <option value="iphone 11">IPhone</option>
+        <option value="ipad 2020">Ipad</option>
+      </select>
+      <textarea
+        required
+        name="message"
+        id="message"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <input type="radio" name="products" value="macbook" />
+      <input type="radio" name="products" value="iphone" />
+      <input type="radio" name="products" value="ipad" />
+      <input type="radio" name="products" value="imac" />
+      <button type="submit">Submit</button>
+    </form> -->
